@@ -12,7 +12,7 @@ tags: home
       <p>Get to know me better <br> - my background <br> and interests</p>
     </li>
     <li>
-      <a href="{{ site.baseurl }}/projects/">Publication & Project</a>
+      <a href="{{ site.baseurl }}/publications/">Publications & Projects</a>
       <p>Check out my <br> 📊 research papers <br> and 🚧 personal projects</p>
     </li>
     <li>
