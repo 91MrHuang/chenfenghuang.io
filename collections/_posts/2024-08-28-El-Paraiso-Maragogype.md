@@ -10,19 +10,4 @@ tags: coffee-note
   <img src="/images/2024-08-28-El-Paraiso-Maragogype/setup.png" alt="Set up" style="width: 400px; height: 400px;">
 </div>
 
-The El Paraiso Maragogype beans, renowned for their tropical fruity notes, hail from the innovative El Paraiso Estate 🥇. Both dry and wet aromas are intensely fragrant, leaving an unforgettable first impression.
-
-Dayglow's roast, while ambitious, may have slightly overstepped, introducing a hint of bitterness. This could also be inherent to the giant Maragogipe variety. As a first-time taster, I suggest tweaking the brew to reduce extraction.
-
-Apax Lab's natural processing and specialized water blend elevate the coffee's essence-like profile. However, whether should I categorize Koji Amazake Method as a true natural process remains uncertain.
-
-**Brew Guide** <br>
-Equipment:
-- Grinder setup: Comandante C40 Red Axis 45 clicks
-- Filter: Sibarist FAST Cone Filter 01 size
-- Dripper: V60
-
-Process:<br>
-0:00-0:40 40g <br>
-0:40-1:10 130g <br>
-1:10-1:50 150g
+El Paraiso Maragogype beans feature tropical fruit notes from El Paraiso Estate. Intense fragrance in both dry and wet forms. Dayglow's roast is slightly over-extracted, causing some bitterness, which possibly is varietal-related. While Apax Lab's processing and water treatment enhance the coffee's profile, the classification of their Koji Amazake Method as a natural process is debatable.
