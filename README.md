@@ -3,10 +3,6 @@
 ## Personal webpage of Chenfeng Huang. 
 
 
-### What it looks like
-
-![homepage preview](homepage-preview.png)
-
 ### What you can find there
 
 * [Home page](https://chenfenghuang.info/)
