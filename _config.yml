@@ -57,11 +57,12 @@ plugins:
   - jekyll-sitemap
 # https://github.com/jekyll/jekyll/issues/2938
 exclude: [vendor]
-
+excerpt_separator: <!--more-->
 collections_dir: collections
 collections:
   reviews:
     output: true
   portfolio:
     output: true
+ 
  
