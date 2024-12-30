@@ -59,3 +59,25 @@
   border-bottom: thin solid #f3f3f3;
 }
 
+// Original in _posts.scss
+.posts .post {
+  background-color: white;
+  margin-bottom: 0.5em;  // Reduce this value
+  border-bottom: thin solid #f3f3f3;
+}
+
+// Add or modify these rules
+.post.py3,
+.coffee-note-item.py3 {
+  padding-top: 0.5rem;    // Reduce from default py3 padding
+  padding-bottom: 0.5rem; // Reduce from default py3 padding
+}
+
+// Optional: also reduce space between title and content
+.post-title {
+  margin-bottom: 0.5rem;  // Reduce title bottom margin
+}
+
+.post-summary {
+  margin-top: 0.5rem;    // Reduce summary top margin
+}
