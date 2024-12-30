@@ -10,4 +10,4 @@ tags: coffee-note
   <img src="/images/2024-08-28-El-Paraiso-Maragogype/setup.png" alt="Set up" style="width: 400px; height: 400px;">
 </div>
 
-El Paraiso Maragogype beans feature tropical fruit notes from El Paraiso Estate. Intense fragrance in both dry and wet forms. Dayglow's roast is slightly over-extracted, causing some bitterness, which possibly is varietal-related. While Apax Lab's processing and water treatment enhance the coffee's profile, the classification of their Koji Amazake Method as a natural process is debatable.
+El Paraiso Maragogype Koji Amazake Method processed beans feature tropical fruit notes from El Paraiso Estate. It has intense tropical fruit fragrance, but I can taste some bitterness, while Apax Lab's water treatment enhances the coffee's sweet profile. It probably due to Dayglow's slightly over-extracted roast or process-related.
