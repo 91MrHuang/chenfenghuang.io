@@ -13,20 +13,15 @@ tags: blog
     <div class="posts">
       {% for post in regular_posts limit:5 %}
         <div class="post py3">
-          <p class="post-meta">
-            <span>{{ post.date | date: site.date_format }}</span>
-            {% if post.tags contains "popular" %}
-              <span class="post-meta-popular-tag">Popular</span>
-            {% endif %}
-          </p>
+          <p class="post-meta">{{ post.date | date: site.date_format }}</p>
           <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
             <h3 class="h3 post-title">{{ post.title }}</h3>
           </a>
           <p class="post-summary">
-            {% if note.summary %}
-              {{ note.summary }}
+            {% if post.summary %}
+              {{ post.summary }}
             {% else %}
-              {% assign excerpt_parts = note.excerpt | split: site.excerpt_separator %}
+              {% assign excerpt_parts = post.excerpt | split: site.excerpt_separator %}
               {{ excerpt_parts[0] | strip_html | truncate: 160 }}
             {% endif %}
           </p>
@@ -44,11 +39,29 @@ tags: blog
 <h1>Coffee Notes</h1>
 <div class="coffee-note">
   {% if coffee_note_count > 0 %}
-    {% for note in coffee_notes limit:5 %}
+    {% assign sca_post = coffee_notes | where: "title", "SCA CSP Brewing-Professional Certificate" | first %}
+    {% assign other_notes = coffee_notes | where_exp: "note", "note.title != 'SCA CSP Brewing-Professional Certificate'" | sort: "date" | reverse %}
+    
+    {% if sca_post %}
       <div class="coffee-note-item py3">
-        <p class="post-meta">
-          <span>{{ note.date | date: site.date_format }}</span>
+        <p class="post-meta">{{ sca_post.date | date: site.date_format }} <span class="marker">📌</span></p>
+        <a href="{{ sca_post.url | prepend: site.baseurl }}" class="post-link">
+          <h3 class="h3 post-title">{{ sca_post.title }}</h3>
+        </a>
+        <p class="post-summary">
+          {% if sca_post.summary %}
+            {{ sca_post.summary }}
+          {% else %}
+            {% assign excerpt_parts = sca_post.excerpt | split: site.excerpt_separator %}
+            {{ excerpt_parts[0] | strip_html | truncate: 160 }}
+          {% endif %}
         </p>
+      </div>
+    {% endif %}
+
+    {% for note in other_notes limit:4 %}
+      <div class="coffee-note-item py3">
+        <p class="post-meta">{{ note.date | date: site.date_format }}</p>
         <a href="{{ note.url | prepend: site.baseurl }}" class="post-link">
           <h3 class="h3 post-title">{{ note.title }}</h3>
         </a>
@@ -62,6 +75,7 @@ tags: blog
         </p>
       </div>
     {% endfor %}
+
     {% if coffee_note_count > 5 %}
       <a href="{{ site.baseurl }}/coffee-note" class="more-coffee-note">See all Coffee Note entries</a>
     {% endif %}
@@ -69,4 +83,3 @@ tags: blog
     <p>No coffee note entries yet. Stay tuned!</p>
   {% endif %}
 </div>
-
