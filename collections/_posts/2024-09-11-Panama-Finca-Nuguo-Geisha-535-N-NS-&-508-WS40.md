@@ -5,9 +5,35 @@ date: 2024-09-11 10:00:00 -0500
 tags: coffee-note
 ---
 <!--more-->
-<div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 20px; margin-bottom: 20px;">
-<img src="/images/2024-09-11-Panama-Finca-Nuguo-Geisha-535-N-NS-&-508-WS40/Finca-nuguo.JPG" alt="nuguo" style="max-width: 50%; height: 400px;">
-  <img src="/images/2024-09-11-Panama-Finca-Nuguo-Geisha-535-N-NS-&-508-WS40/comparison.JPG" alt="compare" style="max-width: 50%; height: 400px;">
+<style>
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 20px;
+  align-items: stretch;
+}
+
+.image-wrapper {
+  flex: 1;
+  min-width: 300px;
+  height: 400px;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+</style>
+
+<div class="image-container">
+  <div class="image-wrapper">
+    <img src="/images/2024-09-11-Panama-Finca-Nuguo-Geisha-535-N-NS-&-508-WS40/Finca-nuguo.JPG" alt="nuguo">
+  </div>
+  <div class="image-wrapper">
+    <img src="/images/2024-09-11-Panama-Finca-Nuguo-Geisha-535-N-NS-&-508-WS40/comparison.JPG" alt="compare">
+  </div>
 </div>
 
 Nuguo Estate is one of my favorite producers of Panamanian Geisha coffee. What makes their coffee special is its outstanding and complex flavor profile while maintaining remarkable cleanliness, without excessive fermentation notes. Due to their limited production, their green beans stay high in the market. I feel fortunate to have acquired both their 535-N-NS (Natural Processed) and 508-WS40 (Washed Processed) lots this year for comparison.
